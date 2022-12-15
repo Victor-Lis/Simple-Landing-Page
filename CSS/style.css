@@ -12,9 +12,6 @@ body{
 
     background-color: #000;
     width: 100%;
-    height: 100vh;
-
-    position: relative;
 
 }
 
@@ -174,9 +171,6 @@ footer{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 
-    position: absolute;
-    bottom: 0%;
-
 }
 
 .footer-title{
@@ -199,8 +193,8 @@ footer{
 
 .footer-img{
 
-    width: 10%;
-    padding: 0%;
+    width: 12%;
+    padding: 01%;
     margin-bottom: -15%;
     margin-bottom: 1%;
     border-radius: 50%;
