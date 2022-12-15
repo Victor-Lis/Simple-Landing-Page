@@ -81,8 +81,8 @@ main{
 .main-title{
     
     position: absolute;    
-    color: rgb(82, 0, 181);
-    filter: drop-shadow(02px 02px 1px rgb(25, 2, 60)); 
+    color: rgb(80, 216, 91);
+    filter: drop-shadow(02px 02px 1px rgb(1, 73, 9)); 
     margin-top: -13%;
 
 }
