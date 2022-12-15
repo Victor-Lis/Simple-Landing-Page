@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+
+    background-color: #000;
+    width: 100%;
+
+}
+
+/* Nav Area */
+
+nav{
+
+    background-color: rgba(28, 28, 28, 0.916);
+    width: 94%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3%;
+
+}
+
+.nav-img{
+
+    width: 11%;
+    border-radius: 45%;
+    margin-left: 02%;
+    margin-right: 05%;
+
+}
+
+.nav-title{
+
+    color: rgb(113, 35, 207);
+    filter: drop-shadow(02px 02px 1px rgb(46, 5, 106)); 
+
+}
+
+/* -------------------------------------------- */
+
+/* Main Area */
+
+main{
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Img Part 1 */
+
+.main-part-1{
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-img{
+
+    width: 100%;
+
+}
+
+.main-title{
+    
+    position: absolute;    
+    color: rgb(82, 0, 181);
+    filter: drop-shadow(02px 02px 1px rgb(25, 2, 60)); 
+    margin-top: -13%;
+
+}
+
+/* -------------------------------------------- */
+
+/* Main Part 2 */
+
+.main-part-2{
+
+    margin-top: -10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding-top: 7.5%;
+    padding-bottom: 10%;
+
+    background-color: rgb(0, 0, 0);
+
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+
+}
+
+.main-title-2{
+    
+    text-align: center;  
+    color: rgb(138, 69, 222);
+    filter: drop-shadow(02px 02px 1px rgb(113, 35, 207)); 
+    margin-top: 0%;
+    width: 90%;
+
+}
+
+.main-text-body{
+
+    text-align: center;
+    color: rgb(113, 35, 207);
+    filter: drop-shadow(02px 02px 1px rgb(46, 5, 106)); 
+    margin-top: 04%;
+    width: 90%;
+    padding-bottom: 0%;
+
+}
+
+.main-title-3{
+    
+    text-align: center;  
+    color: rgb(138, 69, 222);
+    filter: drop-shadow(02px 02px 1px rgb(113, 35, 207)); 
+    margin-top: 05%;
+    width: 90%;
+
+}
+
+.main-img-2{
+
+    margin-top: 5.5%;
+    width: 50%;
+    max-width: 55px;
+    border-radius: 20%;
+
+}
+
+/* -------------------------------------------- */
+
+/* Footer */
+
+footer{
+
+    width: 100%;
+    height: 15%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(27, 1, 47);
+
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+
+}
+
+.footer-title{
+ 
+    color: rgb(138, 69, 222);
+    filter: drop-shadow(02px 02px 1px rgb(113, 35, 207)); 
+    padding-top: 2%;
+
+}
+
+.footer-row{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1%;
+
+}
+
+.footer-img{
+
+    width: 10%;
+    padding: 0%;
+    margin-bottom: -15%;
+    margin-bottom: 1%;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+
+.footer-img:hover{
+
+    animation: hover-animation 1.1s linear;
+    transition: 1s;
+    filter: brightness(0.55);
+
+}
+
+@media (min-width: 600px){
+
+    nav{
+
+        width: 98%;
+        padding: 1%;
+
+    }
+
+    .nav-img{
+
+        width: 05%;
+        margin-right: 3%;
+
+    }
+
+    .main-img{
+
+        width: 100%;
+        height: 10%;
+
+    }
+
+    .main-text-body{
+
+        width: 60%;
+
+    }
+
+    .main-title{
+
+        font-size: 4rem;
+
+    }
+
+    .main-title-2{
+
+        font-size: 2rem;
+
+    }
+
+    .main-text-body{
+
+        font-size: 1.5rem;
+
+    }
+
+    .footer-title{
+
+        font-size: 2rem;
+
+    }
+
+    .footer-img{
+
+        width: 20%;
+        cursor: pointer;
+
+    }
+
+}
+
+@keyframes hover-animation {
+    
+    0%{
+
+        transform: rotateZ(30deg);
+        filter: brightness(0.95);
+
+    }
+
+    25%{
+
+        transform: rotateZ(-30deg);
+        filter: brightness(0.85);
+
+    }
+
+    50%{
+
+        transform: rotateZ(15deg);
+        filter: brightness(0.75);
+
+    }
+
+    75%{
+
+        transform: rotateZ(-15deg);
+        filter: brightness(0.65);
+
+    }
+
+    100%{
+
+        transform: rotateZ(0deg);
+        filter: brightness(0.55);
+
+    }
+
+
+}
