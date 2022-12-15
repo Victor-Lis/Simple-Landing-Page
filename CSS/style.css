@@ -13,6 +13,8 @@ body{
     background-color: #000;
     width: 100%;
 
+    position: relative;
+
 }
 
 /* Nav Area */
@@ -170,6 +172,9 @@ footer{
 
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+
+    position: absolute;
+    bottom: 0%;
 
 }
 
