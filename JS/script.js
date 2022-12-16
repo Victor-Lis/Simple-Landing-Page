@@ -7,6 +7,12 @@ var day = today.getDate()
 
 function setAge(){
 
+    navigator.getBattery().then((battery) => {
+
+        console.log(battery)
+
+    })
+
     if(month < 1 || month == 1 && day < 16){
 
         year--
