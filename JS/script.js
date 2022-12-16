@@ -7,6 +7,7 @@ var day = today.getDate()
 
 function setAge(){
 
+    alert("Mês: "+month+" Dia: "+day)
     alert("Mês é =2? "+(month == 2)+" Dia é menor que 16? "+(day < 16))
 
     if(month < 2 || month == 2 && day < 16){
