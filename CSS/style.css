@@ -169,8 +169,9 @@ main{
     height: 50%;
     width: 50%;
     border-radius: 10%;
+    margin-top: 5%;
 
-    box-shadow: 0px 0px 3px 2px rgb(136, 43, 250);
+    /* box-shadow: 0px 0px 3px 1px rgba(136, 43, 250, 1); */
 
 }
 
@@ -178,8 +179,12 @@ main{
 
     width: 30%;
     height: 30%;
+    padding-top: 1%;
+    padding-bottom: 2.5%;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px rgba(136, 43, 250, 0.749);
 
     display: flex;
     flex-direction: column;
