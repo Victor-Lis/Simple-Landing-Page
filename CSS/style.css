@@ -32,9 +32,10 @@ nav{
 .nav-img{
 
     width: 11%;
-    border-radius: 45%;
+    border-radius: 100%;
     margin-left: 02%;
     margin-right: 05%;
+    box-shadow: 0px 0px 1px 2px rgb(136, 43, 250);
 
 }
 
@@ -215,8 +216,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background-color: rgb(27, 1, 47);
+    background-color: rgba(28, 28, 28, 0.916);
 
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -249,6 +249,7 @@ footer{
     margin-bottom: 1%;
     border-radius: 50%;
     transition: 1s;
+    box-shadow: 0px 0px 1px 2px rgb(136, 43, 250);
 
 }
 
